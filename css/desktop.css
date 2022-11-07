@@ -1,0 +1,13 @@
+.main {
+    height: calc(100vh - 26rem);
+}
+
+.footer {
+    height: 10rem;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

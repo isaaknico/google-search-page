@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1024px)">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar__section--right">
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Imágenes</a></li>
+                <li>
+                    <a href="#" class="tooltip">
+                        <span class="material-symbols-outlined navbar__icon">apps</span>
+                        <span class="tooltiptext">Google apps</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="tooltip">
+                        <picture class="navbar__pic-profile">
+                            <img class="navbar__img-profile" src="https://lh3.googleusercontent.com/ogw/AOh-ky3elPawBJt7lqtCoGdMUHEpXqpPTmO_RLr863TD=s32-c-mo" alt="">
+                        </picture>
+                        <span class="tooltiptext tooltiptext--botom-right">Cuenta de Google</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="main__logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png" alt="imagen de perfil">
+        </section>
+        <section class="main__input-container">
+            <div class="main__input">
+                <span class="icon icon--search"></span>
+                <input autofocus type="text">
+                <a href="" class="icon icon--mic tooltip">
+                    <span class="tooltiptext tooltiptext--arrow">Búsqueda por voz</span>
+                </a>
+                <a href="" class="icon icon--camera tooltip">
+                    <span class="tooltiptext tooltiptext--arrow">Búsqueda por imagen</span>
+                </a>
+            </div>
+        </section>
+        <section class="main__buttons">
+            <button type="input" class="btn">Buscar con Google</button>
+            <button type="input" class="btn">Voy a tener suerte</button>
+        </section>
+        <section class="main__text main__text--secondary">
+            <p>Ofrecido por Google en: <a href="#">English</a></p>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__region">
+            <span >Platzi</span>
+        </section>
+        <section class="footer__links">
+            <ul class="footer__left">
+                <li><a href="#">Sobre Google</a></li>
+                <li><a href="#">Publicidad</a></li>
+                <li><a href="#">Negocios</a></li>
+                <li><a href="#">Cómo funciona la Búsqueda</a></li>
+            </ul>
+            <ul class="footer__right">
+                <li><a href="#">Privacidad</a></li>
+                <li><a href="#">Condiciones</a></li>
+                <li><a href="#">Preferencias</a></li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>
