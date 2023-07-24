@@ -241,13 +241,13 @@ a:hover {
     position: absolute;
     z-index: 1;
     top: 40px;
-    left: 50%;
-    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    right: 50%;
+    margin-right: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
 
 .tooltip .tooltiptext--botom-right {
-    left: 0;
-    margin-left: -80px;
+    right: 0;
+    margin-right: 0;
 }
 
 .tooltip .tooltiptext--arrow {
@@ -265,8 +265,8 @@ a:hover {
     content: " ";
     position: absolute;
     bottom: 100%;  /* At the top of the tooltip */
-    left: 50%;
-    margin-left: -5px;
+    left: 90%;
+    margin-left: 0; /*-5*/
     border-width: 5px;
     border-style: solid;
     border-color: transparent transparent #303134 transparent;
